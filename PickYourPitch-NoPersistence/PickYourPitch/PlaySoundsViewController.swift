@@ -45,8 +45,12 @@ class PlaySoundsViewController: UIViewController {
         } catch _ {
             audioFile = nil
         }
-        
+        sliderView.value = UserDefaults.standard.float(forKey: Constants.slidervalue)
         setUserInterfaceToPlayMode(false)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        UserDefaults.standard.set(sliderView.value, forKey: Constants.slidervalue)
     }
     
     // MARK: Set Interface
@@ -79,7 +83,6 @@ class PlaySoundsViewController: UIViewController {
     }
     
     @IBAction func sliderDidMove(_ sender: UISlider) {
-        print("Slider vaue: \(sliderView.value)")
     }
     
     // MARK: Play Audio
