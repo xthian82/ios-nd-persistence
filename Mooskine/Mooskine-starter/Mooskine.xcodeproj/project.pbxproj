@@ -23,6 +23,8 @@
 		A76557E91F8BC1FB00EFF9B8 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A76557E41F8BC1AC00EFF9B8 /* OpenSans-Semibold.ttf */; };
 		C4FB695723EA3E6F00856D2E /* Mooskine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4FB695523EA3E6F00856D2E /* Mooskine.xcdatamodeld */; };
 		C4FB695923EBB5C800856D2E /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FB695823EBB5C800856D2E /* DataController.swift */; };
+		C4FB695B23EE5E8E00856D2E /* Notebook+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FB695A23EE5E8E00856D2E /* Notebook+Extensions.swift */; };
+		C4FB695D23EE5EF400856D2E /* Note+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FB695C23EE5EF400856D2E /* Note+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		A76557E61F8BC1AC00EFF9B8 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		C4FB695623EA3E6F00856D2E /* Mooskine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mooskine.xcdatamodel; sourceTree = "<group>"; };
 		C4FB695823EBB5C800856D2E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		C4FB695A23EE5E8E00856D2E /* Notebook+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notebook+Extensions.swift"; sourceTree = "<group>"; };
+		C4FB695C23EE5EF400856D2E /* Note+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,8 @@
 			children = (
 				C4FB695523EA3E6F00856D2E /* Mooskine.xcdatamodeld */,
 				C4FB695823EBB5C800856D2E /* DataController.swift */,
+				C4FB695A23EE5E8E00856D2E /* Notebook+Extensions.swift */,
+				C4FB695C23EE5EF400856D2E /* Note+Extensions.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -298,8 +304,10 @@
 				03B2699B1F2F8AA100C7433C /* NotebooksListViewController.swift in Sources */,
 				C4FB695923EBB5C800856D2E /* DataController.swift in Sources */,
 				03B2699C1F2F8AA100C7433C /* NoteDetailsViewController.swift in Sources */,
+				C4FB695D23EE5EF400856D2E /* Note+Extensions.swift in Sources */,
 				03B269A01F2F8AAD00C7433C /* Cell.swift in Sources */,
 				03B2699D1F2F8AA100C7433C /* NotesListViewController.swift in Sources */,
+				C4FB695B23EE5E8E00856D2E /* Notebook+Extensions.swift in Sources */,
 				03B2699F1F2F8AAA00C7433C /* NoteCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
